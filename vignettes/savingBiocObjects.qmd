@@ -1,6 +1,8 @@
 ---
 title: "Saving Bioconductor Objects for Sharing"
-author: "Michael Love"
+author:
+  - name: Michael Love
+    affiliation: Department of Genetics and Department of Biostatistics, University of North Carolina at Chapel Hill
 date: today
 format:
   html:
@@ -42,6 +44,23 @@ The content of this vignette has been informed by discussions on the
 contributions from Kevin Rue-Albrecht, Johannes Rainer, Lori Shepherd, Jayaram
 Kancherla, Aaron Lun, Hervé Pagès, Laurent Gatto, Vince Carey, Sean Davis,
 Robert Castelo, Hugo Gruson, and Luke Zappia.
+
+## Version Info
+
+```{r}
+#| label: version-info
+#| echo: false
+#| results: asis
+suppressPackageStartupMessages(library(BiocManager))
+```
+
+<p>
+**R version**: `r R.version.string`
+<br />
+**Bioconductor version**: `r BiocManager::version()`
+<br />
+**Package version**: `r packageVersion("savingBiocObjects")`
+</p>
 
 ## R serialization
 

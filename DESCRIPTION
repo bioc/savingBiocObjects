@@ -11,7 +11,8 @@ Description: Documentation and guidance on strategies for saving and sharing
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-biocViews: DataRepresentation, Infrastructure, Software
+BiocType: Workflow
+biocViews: BasicWorkflow
 Suggests:
     SummarizedExperiment,
     SingleCellExperiment,
@@ -23,6 +24,7 @@ Suggests:
     rtracklayer,
     plyranges,
     jsonlite,
+    BiocManager,
     knitr,
     quarto
 VignetteBuilder: quarto
