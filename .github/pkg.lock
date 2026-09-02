@@ -1,0 +1,125 @@
+{
+  "lockfile_version": 1,
+  "os": "macOS Tahoe 26.5.2",
+  "r_version": "R version 4.6.0 (2026-04-24)",
+  "platform": "aarch64-apple-darwin23",
+  "packages": [
+    {
+      "ref": "deps::.",
+      "package": "savingBiocObjects-deps",
+      "version": "0.1.0",
+      "type": "deps",
+      "direct": true,
+      "binary": false,
+      "dependencies": [],
+      "deps": [
+        {
+          "ref": "SummarizedExperiment",
+          "type": "Suggests",
+          "package": "SummarizedExperiment",
+          "op": "",
+          "version": ""
+        },
+        {
+          "ref": "SingleCellExperiment",
+          "type": "Suggests",
+          "package": "SingleCellExperiment",
+          "op": "",
+          "version": ""
+        },
+        {
+          "ref": "GenomicRanges",
+          "type": "Suggests",
+          "package": "GenomicRanges",
+          "op": "",
+          "version": ""
+        },
+        {
+          "ref": "HDF5Array",
+          "type": "Suggests",
+          "package": "HDF5Array",
+          "op": "",
+          "version": ""
+        },
+        {
+          "ref": "anndataR",
+          "type": "Suggests",
+          "package": "anndataR",
+          "op": "",
+          "version": ""
+        },
+        {
+          "ref": "alabaster.base",
+          "type": "Suggests",
+          "package": "alabaster.base",
+          "op": "",
+          "version": ""
+        },
+        {
+          "ref": "alabaster.se",
+          "type": "Suggests",
+          "package": "alabaster.se",
+          "op": "",
+          "version": ""
+        },
+        {
+          "ref": "rtracklayer",
+          "type": "Suggests",
+          "package": "rtracklayer",
+          "op": "",
+          "version": ""
+        },
+        {
+          "ref": "plyranges",
+          "type": "Suggests",
+          "package": "plyranges",
+          "op": "",
+          "version": ""
+        },
+        {
+          "ref": "jsonlite",
+          "type": "Suggests",
+          "package": "jsonlite",
+          "op": "",
+          "version": ""
+        },
+        {
+          "ref": "BiocManager",
+          "type": "Suggests",
+          "package": "BiocManager",
+          "op": "",
+          "version": ""
+        },
+        {
+          "ref": "knitr",
+          "type": "Suggests",
+          "package": "knitr",
+          "op": "",
+          "version": ""
+        },
+        {
+          "ref": "quarto",
+          "type": "Suggests",
+          "package": "quarto",
+          "op": "",
+          "version": ""
+        }
+      ],
+      "vignettes": false,
+      "metadata": {
+        "RemotePkgRef": "deps::.",
+        "RemoteType": "deps"
+      },
+      "sources": [],
+      "target": "src/contrib/savingBiocObjects-deps_0.1.0.tar.gz",
+      "platform": "source",
+      "rversion": "*",
+      "directpkg": true,
+      "license": "MIT + file LICENSE",
+      "dep_types": ["Depends", "Imports", "LinkingTo"],
+      "params": [],
+      "install_args": [],
+      "sysreqs": ""
+    }
+  ]
+}

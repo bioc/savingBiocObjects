@@ -28,6 +28,6 @@ Suggests:
     knitr,
     quarto
 VignetteBuilder: quarto
-URL: https://mikelove.github.io/saving-bioc-objects
-BugReports: https://github.com/mikelove/saving-bioc-objects/issues
+URL: https://mikelove.github.io/savingBiocObjects
+BugReports: https://github.com/mikelove/savingBiocObjects/issues
 Config/roxygen2/version: 8.0.0
