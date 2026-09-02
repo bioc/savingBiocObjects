@@ -1,0 +1,8 @@
+^\.github$
+^\.claude$
+^docs$
+^_pkgdown\.yml$
+^CLAUDE\.md$
+^CONTRIBUTING\.md$
+^workflows\.txt$
+^README\.md$

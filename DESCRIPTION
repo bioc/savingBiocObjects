@@ -27,6 +27,7 @@ Suggests:
     BiocManager,
     knitr,
     quarto
+SystemRequirements: Quarto (https://quarto.org)
 VignetteBuilder: quarto
 URL: https://mikelove.github.io/savingBiocObjects
 BugReports: https://github.com/mikelove/savingBiocObjects/issues
