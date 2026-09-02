@@ -1,6 +1,6 @@
 Package: savingBiocObjects
 Title: Saving Bioconductor Objects for Sharing
-Version: 0.1.0
+Version: 0.99.0
 Authors@R:
     person("Michael", "Love", , "michaelisaiahlove@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-8401-0545"))
