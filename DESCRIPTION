@@ -1,6 +1,6 @@
 Package: savingBiocObjects
 Title: Saving Bioconductor Objects for Sharing
-Version: 0.99.0
+Version: 0.99.1
 Authors@R:
     person("Michael", "Love", , "michaelisaiahlove@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-8401-0545"))
@@ -29,6 +29,6 @@ Suggests:
     quarto
 SystemRequirements: Quarto (https://quarto.org)
 VignetteBuilder: quarto
-URL: https://mikelove.github.io/savingBiocObjects
+URL: https://mikelove.github.io/savingBiocObjects, https://bioconductor.org/packages/savingBiocObjects/
 BugReports: https://github.com/mikelove/savingBiocObjects/issues
 Config/roxygen2/version: 8.0.0
